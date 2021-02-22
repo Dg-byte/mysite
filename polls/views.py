@@ -6,4 +6,4 @@ def index(request):
     return HttpResponse("<h1>Hello world</h1>")
 
 def meme(request):
-    return HttpResponse("https://upload.wikimedia.org/wikipedia/ru/4/4d/Wojak.png")
+    return HttpResponse('<img src = https://upload.wikimedia.org/wikipedia/ru/4/4d/Wojak.png></img>')
